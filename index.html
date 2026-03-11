@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SGM Clothing — Discover premium fashion with our exclusive Summer 2026 collection. Explore new arrivals, curated categories, and timeless style.">
+    <title>SGM Clothing — Premium Fashion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="nav-bar">
+        <h1 class="logo">SGM Clothing</h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search styles, categories...">
+        </div>
+        <ul>
+            <li class="links"><a href="#">Home</a></li>
+            <li class="links"><a href="#categories">Collections</a></li>
+            <li class="links"><a href="#featured">New In</a></li>
+            <li class="links"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- IMAGE SLIDER -->
+    <div class="slider-section">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=1400&q=85" alt="Fashion 1">
+                    <div class="slide-caption">New Arrivals &mdash; Summer 2026</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1400&q=85" alt="Fashion 2">
+                    <div class="slide-caption">Exclusive Collection</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1400&q=85" alt="Fashion 3">
+                    <div class="slide-caption">Style Redefined</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1400&q=85" alt="Fashion 4">
+                    <div class="slide-caption">Shop the Look</div>
+                </div>
+            </div>
+            <button class="slider-btn prev" onclick="changeSlide(-1)" id="prev-btn">&#10094;</button>
+            <button class="slider-btn next" onclick="changeSlide(1)" id="next-btn">&#10095;</button>
+            <div class="dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARQUEE TICKER -->
+    <div class="ticker-wrap">
+        <div class="ticker-content">
+            ✦ Free Shipping on Orders Above ₹999 &nbsp;&nbsp;&nbsp;
+            ✦ New Summer 2026 Collection Available Now &nbsp;&nbsp;&nbsp;
+            ✦ Use Code SGM20 for 20% Off Your First Order &nbsp;&nbsp;&nbsp;
+            ✦ Exclusive Members-Only Sale — Join Today &nbsp;&nbsp;&nbsp;
+            ✦ Free Shipping on Orders Above ₹999 &nbsp;&nbsp;&nbsp;
+            ✦ New Summer 2026 Collection Available Now &nbsp;&nbsp;&nbsp;
+            ✦ Use Code SGM20 for 20% Off Your First Order &nbsp;&nbsp;&nbsp;
+            ✦ Exclusive Members-Only Sale — Join Today &nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+
+    <!-- WELCOME SECTION -->
+    <div class="main_section">
+        <div class="info">
+            <h2 class="section-title">Welcome to <span>SGM Clothing</span></h2>
+            <p class="description">Discover the latest trends in fashion with SGM Clothing. Our collection features a wide range of styles — from casual everyday wear to elegant evening attire crafted for every moment.</p>
+            <p class="description">Our commitment to quality and style ensures that you'll find something you love. Explore new arrivals and exclusive collections today!</p>
+            <a href="#featured" class="cta-btn">Explore Collection</a>
+        </div>
+    </div>
+
+    <!-- CATEGORIES SECTION -->
+    <section class="categories-section" id="categories">
+        <div class="section-header">
+            <span class="section-label">Browse by Style</span>
+            <h2 class="section-title">Our <span>Collections</span></h2>
+        </div>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" alt="Women's Wear">
+                <div class="overlay"></div>
+                <div class="category-label">
+                    <h3>Women's</h3>
+                    <p>Explore →</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Men's Wear">
+                <div class="overlay"></div>
+                <div class="category-label">
+                    <h3>Men's</h3>
+                    <p>Explore →</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1529374855404-311d0eec9a5b?w=600&q=80" alt="Casual Wear">
+                <div class="overlay"></div>
+                <div class="category-label">
+                    <h3>Casual</h3>
+                    <p>Explore →</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80" alt="Formal Wear">
+                <div class="overlay"></div>
+                <div class="category-label">
+                    <h3>Formal</h3>
+                    <p>Explore →</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="featured-section" id="featured">
+        <div class="section-header">
+            <span class="section-label">Handpicked For You</span>
+            <h2 class="section-title">Featured <span>Picks</span></h2>
+        </div>
+        <div class="featured-grid">
+
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80" alt="Floral Dress">
+                    <span class="product-badge new-badge">New</span>
+                    <button class="wishlist-btn" title="Add to Wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h4>Floral Summer Dress</h4>
+                    <p class="sub">Women · Casual</p>
+                    <div class="product-footer">
+                        <div class="price">₹1,499 <span>₹2,200</span></div>
+                        <button class="add-to-cart">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500&q=80" alt="Classic Shirt">
+                    <span class="product-badge" style="background:#c9a84c;color:#0a0a0a;">Sale</span>
+                    <button class="wishlist-btn" title="Add to Wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h4>Classic Oxford Shirt</h4>
+                    <p class="sub">Men · Formal</p>
+                    <div class="product-footer">
+                        <div class="price">₹999 <span>₹1,600</span></div>
+                        <button class="add-to-cart">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=500&q=80" alt="Evening Gown">
+                    <span class="product-badge new-badge">New</span>
+                    <button class="wishlist-btn" title="Add to Wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h4>Elegant Evening Gown</h4>
+                    <p class="sub">Women · Formal</p>
+                    <div class="product-footer">
+                        <div class="price">₹3,299 <span>₹5,000</span></div>
+                        <button class="add-to-cart">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80" alt="Sneakers">
+                    <button class="wishlist-btn" title="Add to Wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h4>Urban Street Kicks</h4>
+                    <p class="sub">Unisex · Casual</p>
+                    <div class="product-footer">
+                        <div class="price">₹2,199</div>
+                        <button class="add-to-cart">Add</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <div class="promo-banner">
+        <div class="promo-text">
+            <h2>Get <span>20% Off</span> Your<br>First Order</h2>
+            <p>Use code <strong style="color:#c9a84c;">SGM20</strong> at checkout. Limited time offer.</p>
+        </div>
+        <a href="#" class="cta-btn" id="promo-cta">Claim Offer</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">SGM Clothing</div>
+                <p>Where style meets substance. Premium fashion for every moment, every mood.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Women's</a></li>
+                    <li><a href="#">Men's</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Sizing Guide</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 <span>SGM Clothing</span>. All rights reserved. Crafted with ♥
+        </div>
+    </footer>
+
+</body>
+<script src="index.js">
+</script>
+</html>
